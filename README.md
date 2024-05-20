@@ -1,5 +1,5 @@
 <h2> Hi, I'm Jeffery Arthur Afutu! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
-<p><em>Software Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> || AWS Certified Cloud Practitioner <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30">
+<p><em>Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> || AWS Certified Cloud Practitioner <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30">
 </em></p>
 
 <br/>
@@ -48,3 +48,6 @@ I'm always open to new ideas and opportunities. Let's connect and explore exciti
 <a href="http://www.github.com/Kjeff24"><img src="https://github-readme-streak-stats.herokuapp.com/?user=Kjeff24&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
 
 <a href="https://github.com/Kjeff24" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kjeff24&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+
+<a href="https://github.com/Kjeff24" align="left"><img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kjeff24&theme=transparent" alt="Top Languages By Commit" /></a>
+<a href="https://github.com/Kjeff24" align="left" ><img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kjeff24&theme=transparent" alt="Top Languages By Commit" /></a>
