@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jeffery Arthur Afutu - README</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0f172a;
+      --panel: #111827;
+      --panel-2: #1f2937;
+      --text: #e5e7eb;
+      --muted: #cbd5e1;
+      --accent: #38bdf8;
+      --border: rgba(148, 163, 184, 0.18);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(56, 189, 248, 0.16), transparent 28%),
+        radial-gradient(circle at top right, rgba(99, 102, 241, 0.14), transparent 24%),
+        linear-gradient(180deg, #020617 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 40px 20px 56px;
+    }
+
+    .card {
+      background: rgba(17, 24, 39, 0.88);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
+    }
+
+    h1, h2, h3 {
+      margin: 0 0 14px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      margin-top: 28px;
+    }
+
+    p {
+      margin: 0 0 16px;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 20px;
+      align-items: start;
+    }
+
+    .hero img.hero-gif {
+      width: 220px;
+      max-width: 100%;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+    }
+
+    .socials {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .socials img,
+    .badges img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .section {
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    .badge-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .badge-row img {
+      border-radius: 999px;
+    }
+
+    @media (max-width: 720px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .hero img.hero-gif {
+        width: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <section class="hero">
+        <div>
+          <h2>Hi, I'm Jeffery Arthur Afutu! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" alt="wave" width="50"></h2>
+          <p><em>Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" alt="developer" width="30"> || AWS Certified Solutions Architect <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" alt="certified" width="30"> || AWS Developer Associate <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" alt="certified" width="30"></em></p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>About Me</h3>
+        <div class="hero">
+          <div>
+            <p>I'm a passionate 🥇, creative 🎨, and perceptive 🔭 computer scientist 🔧 with a hands-on approach to problem-solving and an unending thirst for knowledge 📚. Anything and everything that can be classified as technology 💻 fascinates me.</p>
+            <p>When I'm not immersed in the world of technology, you can find me following a range of sports, from Soccer ⚽ and Basketball 🏀 to various eSports 🖱️.</p>
+            <p>I'm always open to new ideas and opportunities. Let's connect and explore exciting possibilities together! 🚀</p>
+          </div>
+          <img class="hero-gif" align="right" src="https://media.giphy.com/media/wwg1suUiTbCY8H8vIA/giphy.gif?cid=790b7611hvd9ylvr3et8ito95g4cekqqn23xqzd3h6d5asq3&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="about me gif" width="220">
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Socials</h3>
+        <div class="socials">
+          <a href="https://github.com/Kjeff24" target="_blank" rel="noreferrer">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg">
+              <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg">
+              <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub">
+            </picture>
+          </a>
+          <a href="https://www.linkedin.com/in/jeffery-afutu" target="_blank" rel="noreferrer">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg">
+              <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg">
+              <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn">
+            </picture>
+          </a>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Technologies &amp; Tools</h3>
+        <div class="badge-grid badges">
+          <div>
+            <p><strong>Cloud Services:</strong></p>
+            <img src="https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=amazon-aws&logoColor=white&color=6aa6f8" alt="AWS badge">
+          </div>
+          <div>
+            <p><strong>Programming Languages:</strong></p>
+            <div class="badge-row">
+              <img src="https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8" alt="Python badge">
+              <img src="https://img.shields.io/badge/Code-Java-informational?style=flat&logo=java&logoColor=white&color=6aa6f8" alt="Java badge">
+              <img src="https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=6aa6f8" alt="JavaScript badge">
+              <img src="https://img.shields.io/badge/Code-TypeScript-informational?style=flat&logo=typescript&logoColor=white&color=6aa6f8" alt="TypeScript badge">
+            </div>
+          </div>
+          <div>
+            <p><strong>Tools and Services:</strong></p>
+            <img src="https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8" alt="Docker badge">
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Badges</h3>
+        <div class="badge-grid badges">
+          <p><strong>My Github Stats:</strong></p>
+          <a href="http://www.github.com/Kjeff24"><img src="https://github-readme-stats.vercel.app/api?username=Kjeff24&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="Kjeff24's GitHub stats"></a>
+          <a href="http://www.github.com/Kjeff24"><img src="https://github-readme-streak-stats.herokuapp.com/?user=Kjeff24&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="GitHub streak stats"></a>
+          <a href="https://github.com/Kjeff24"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kjeff24&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages"></a>
+          <a href="https://github.com/Kjeff24"><img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kjeff24&theme=transparent" alt="Top Languages By Commit"></a>
+          <a href="https://github.com/Kjeff24"><img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kjeff24&theme=transparent" alt="Repos per language"></a>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
