@@ -1,216 +1,365 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jeffery Arthur Afutu - README</title>
+  <title>Jeffery Afutu · Software, Cloud & AI Solutions Engineer</title>
+  <meta name="description" content="Portfolio of Jeffery Afutu, Software, Cloud & AI Solutions Engineer specializing in multi-agent AI, AWS, and cloud-native architecture.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            accent: '#38bdf8',
+            accent2: '#a78bfa',
+          },
+        },
+      },
+    }
+  </script>
   <style>
-    :root {
-      color-scheme: dark;
-      --bg: #0f172a;
-      --panel: #111827;
-      --panel-2: #1f2937;
-      --text: #e5e7eb;
-      --muted: #cbd5e1;
-      --accent: #38bdf8;
-      --border: rgba(148, 163, 184, 0.18);
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
     body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background:
         radial-gradient(circle at top left, rgba(56, 189, 248, 0.16), transparent 28%),
-        radial-gradient(circle at top right, rgba(99, 102, 241, 0.14), transparent 24%),
-        linear-gradient(180deg, #020617 0%, var(--bg) 100%);
-      color: var(--text);
-      line-height: 1.6;
+        radial-gradient(circle at top right, rgba(167, 139, 250, 0.14), transparent 24%),
+        linear-gradient(180deg, #020617 0%, #0f172a 100%);
     }
-
-    main {
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 40px 20px 56px;
-    }
-
-    .card {
-      background: rgba(17, 24, 39, 0.88);
-      backdrop-filter: blur(8px);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 28px;
-      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
-    }
-
-    h1, h2, h3 {
-      margin: 0 0 14px;
-      line-height: 1.2;
-    }
-
-    h2 {
-      font-size: clamp(2rem, 4vw, 3rem);
-    }
-
-    h3 {
-      font-size: 1.3rem;
-      margin-top: 28px;
-    }
-
-    p {
-      margin: 0 0 16px;
-      color: var(--muted);
-    }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .hero {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 20px;
-      align-items: start;
-    }
-
-    .hero img.hero-gif {
-      width: 220px;
-      max-width: 100%;
-      border-radius: 16px;
-      border: 1px solid var(--border);
-    }
-
-    .socials {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      align-items: center;
-    }
-
-    .socials img,
-    .badges img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    .section {
-      margin-top: 28px;
-      padding-top: 24px;
-      border-top: 1px solid var(--border);
-    }
-
-    .badge-grid {
-      display: grid;
-      gap: 12px;
-    }
-
-    .badge-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: center;
-    }
-
-    .badge-row img {
-      border-radius: 999px;
-    }
-
-    @media (max-width: 720px) {
-      .hero {
-        grid-template-columns: 1fr;
-      }
-
-      .hero img.hero-gif {
-        width: 180px;
-      }
+    .card-glass {
+      background: rgba(17, 24, 39, 0.82);
+      backdrop-filter: blur(10px);
     }
   </style>
 </head>
-<body>
-  <main>
-    <article class="card">
-      <section class="hero">
-        <div>
-          <h2>Hi, I'm Jeffery Arthur Afutu! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" alt="wave" width="50"></h2>
-          <p><em>Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" alt="developer" width="30"> || AWS Certified Solutions Architect <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" alt="certified" width="30"> || AWS Developer Associate <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" alt="certified" width="30"></em></p>
+<body class="min-h-screen text-slate-200 font-sans leading-relaxed">
+  <main class="max-w-5xl mx-auto px-5 py-10 sm:py-14">
+    <article class="card-glass border border-white/10 rounded-3xl p-6 sm:p-10 shadow-2xl shadow-black/40">
+
+      <!-- Hero -->
+      <section>
+        <h1 class="text-3xl sm:text-4xl font-bold text-white">Jeffery Afutu</h1>
+        <p class="text-slate-300 text-lg mt-1">Software, Cloud &amp; AI Solutions Engineer</p>
+        <div class="flex flex-wrap gap-4 mt-4 text-sm text-slate-400">
+          <span>📍 Accra, Ghana</span>
+          <a class="hover:text-accent" href="mailto:jeffery.afutu@gmail.com">✉ jeffery.afutu@gmail.com</a>
+          <a class="hover:text-accent" href="https://www.linkedin.com/in/jeffery-afutu" target="_blank" rel="noreferrer">🔗 linkedin.com/in/jeffery-afutu</a>
+          <a class="hover:text-accent" href="https://github.com/Kjeff24" target="_blank" rel="noreferrer">💻 github.com/Kjeff24</a>
         </div>
       </section>
 
-      <section class="section">
-        <h3>About Me</h3>
-        <div class="hero">
-          <div>
-            <p>I'm a passionate 🥇, creative 🎨, and perceptive 🔭 computer scientist 🔧 with a hands-on approach to problem-solving and an unending thirst for knowledge 📚. Anything and everything that can be classified as technology 💻 fascinates me.</p>
-            <p>When I'm not immersed in the world of technology, you can find me following a range of sports, from Soccer ⚽ and Basketball 🏀 to various eSports 🖱️.</p>
-            <p>I'm always open to new ideas and opportunities. Let's connect and explore exciting possibilities together! 🚀</p>
+      <!-- About -->
+      <section class="mt-9 pt-7 border-t border-white/10">
+        <div class="text-xs font-semibold tracking-widest uppercase text-accent2 mb-2">About</div>
+        <p class="text-slate-300">Innovative and detail-oriented Software, Cloud &amp; AI Solutions Engineer with over 2 years of experience designing and deploying cloud-native, serverless, and multi-agent AI applications on AWS and Microsoft Azure. B.Sc. Computer Science, University of Ghana. Specializes in multi-agent AI pipelines (AWS Bedrock, Strands, AgentCore), Microsoft Copilot Studio enterprise assistants, production RAG systems, MCP tool integration, and Terraform-managed infrastructure. Skilled in Java (Spring Boot), Python (FastAPI), Angular, and full-stack cloud architecture. Certified AWS Solutions Architect – Associate and AWS Developer – Associate.</p>
+      </section>
+
+      <!-- Experience -->
+      <section class="mt-9 pt-7 border-t border-white/10">
+        <div class="text-xs font-semibold tracking-widest uppercase text-accent2 mb-4">Experience</div>
+
+        <div class="flex flex-wrap justify-between items-baseline gap-1">
+          <h3 class="text-lg font-semibold text-white">Software, Cloud &amp; AI Solutions Engineer, AmaliTech GmbH</h3>
+          <span class="text-sm text-slate-400">Aug 2023 – Present · Accra, Ghana</span>
+        </div>
+        <p class="text-slate-300 mt-2">Designed and delivered cloud-native solutions for enterprise clients across the full stack: Terraform-managed AWS infrastructure, Python/Java backends, Angular frontends, and AI-augmented workflows.</p>
+
+        <div class="mt-5">
+          <div class="text-sm font-semibold text-white mb-2">AI &amp; Agent Systems</div>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300 text-sm">
+            <li>Built multi-agent AI pipelines in Python using AWS Bedrock (Claude Sonnet 4), Strands Agents SDK, and AgentCore: orchestration, MCP tool integration, memory persistence</li>
+            <li>Designed dependency-aware agent orchestrators decomposing complex structured workflows into specialist sub-agent tasks</li>
+            <li>Built enterprise AI assistants in Microsoft Copilot Studio embedded in Teams, integrating SharePoint retrieval, Outlook access, and Power Automate approval routing</li>
+            <li>Designed multi-topic Copilot Studio agents with compliance guardrails and human-in-the-loop approval chains</li>
+            <li>Integrated MCP servers (Atlassian, GitHub, Microsoft 365) into agentic workflows for runtime enterprise data read/write</li>
+            <li>Implemented SSE streaming interfaces for real-time agent responses in Angular</li>
+            <li>Architected AgentCore Memory persistence for stateful, cross-session AI interactions</li>
+            <li>Built Step Functions-orchestrated multi-agent evaluation pipeline fanning submissions to 5 parallel scoring agents, aggregated into a weighted rubric score</li>
+          </ul>
+        </div>
+
+        <div class="mt-5">
+          <div class="text-sm font-semibold text-white mb-2">Backend</div>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300 text-sm">
+            <li>Built FastAPI and Spring Boot services deployed on Lambda, ECS Fargate, and EC2</li>
+            <li>Implemented serverless REST APIs (API Gateway + Lambda) with Cognito JWT authorization</li>
+            <li>Designed DynamoDB single-table schemas for high-throughput serverless workloads</li>
+            <li>Automated EBS/S3/RDS encryption and account-level security guardrails via Python and Lambda</li>
+          </ul>
+        </div>
+
+        <div class="mt-5">
+          <div class="text-sm font-semibold text-white mb-2">Frontend</div>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300 text-sm">
+            <li>Built Angular 19/20 SPAs with Tailwind CSS, RxJS, and NgRx Signals; hosted on AWS Amplify</li>
+            <li>Configured enterprise SSO using AWS Cognito + Microsoft Entra ID (SAML) via Amplify</li>
+          </ul>
+        </div>
+
+        <div class="mt-5">
+          <div class="text-sm font-semibold text-white mb-2">Infrastructure &amp; DevOps</div>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300 text-sm">
+            <li>Authored modular Terraform libraries (1.5+) covering networking, security, compute, auth, cost management, CI/CD; adopted across client engagements</li>
+            <li>Managed multi-environment deployments with SSM Parameter Store config and OIDC-authenticated GitHub Actions pipelines</li>
+            <li>Designed cross-region disaster recovery architectures (Route 53 failover, DynamoDB PITR, AgentCore Memory migration) targeting sub-10-minute RPO/RTO</li>
+            <li>Built Jenkins CI/CD pipelines with SonarQube quality gates; secretless bootstrap/SSM Parameter Store pattern for multi-environment Terraform deploys</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="mt-9 pt-7 border-t border-white/10">
+        <div class="text-xs font-semibold tracking-widest uppercase text-accent2 mb-4">Projects</div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">Enterprise HR &amp; Comms Assistant</h3>
+            <span class="block text-xs text-accent2 mb-2">Copilot Studio · Teams · SharePoint · Power Automate · Approvals · Outlook API</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>AI assistant in Teams for HR pros; 4 workflow tools with compliance guardrails and human-in-the-loop approval</li>
+              <li>Draft Communication cuts drafting time from 30–60 min to under 5 min</li>
+              <li>Tone &amp; Risk Review auto-routes HIGH-risk drafts to senior HR/Legal</li>
+              <li>Inbox Prioritiser classifies and surfaces top-priority HR emails</li>
+            </ul>
           </div>
-          <img class="hero-gif" align="right" src="https://media.giphy.com/media/wwg1suUiTbCY8H8vIA/giphy.gif?cid=790b7611hvd9ylvr3et8ito95g4cekqqn23xqzd3h6d5asq3&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="about me gif" width="220">
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">AI-Augmented Pre-Sales Agent Platform</h3>
+            <span class="block text-xs text-accent2 mb-2">Python · Bedrock (Claude Sonnet 4) · Strands · AgentCore · Terraform · Angular 19 · Cognito · DynamoDB</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Multi-agent orchestration compressing a multi-week pre-sales lifecycle into days</li>
+              <li>Dependency-aware orchestrator sequences 10 specialist agents via task graph</li>
+              <li>AgentCore Memory persists resumable conversation state; Bedrock KB grounds outputs</li>
+              <li>Human-in-the-loop sign-off gates final submission</li>
+            </ul>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">Amali Ventures: Pitch Track</h3>
+            <span class="block text-xs text-accent2 mb-2">Python · Bedrock · Strands · Step Functions · Terraform · Angular 19 · Cognito · DynamoDB · Jenkins</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Hackathon submission-tracking &amp; AI-evaluation platform</li>
+              <li>Step Functions fans each submission to 5 parallel scoring agents (one via GitHub MCP)</li>
+              <li>Aggregator Lambda produces weighted 100-point rubric with ADVANCE/MAYBE/reject bands</li>
+            </ul>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">RAG-Powered Document Assistant</h3>
+            <span class="block text-xs text-accent2 mb-2">Python · Streamlit · Bedrock · RAG · MCP (Atlassian / M365 / GitHub)</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Vector-store RAG assistant generating structured, cited responses</li>
+              <li>Atlassian OAuth 2.0 + PKCE for Jira/Confluence access via MCP</li>
+              <li>Multi-backend LLM support (Bedrock hosted + local)</li>
+            </ul>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">AWS Startup Packages (Terraform IaC Suite)</h3>
+            <span class="block text-xs text-accent2 mb-2">Terraform 1.5+ · EC2 · RDS · Lambda · ECS · Cognito · GuardDuty · Security Hub · KMS · EventBridge</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Modular library covering full AWS Well-Architected Framework</li>
+              <li>Security guardrails, monitoring, encryption automation, multi-AZ networking, cost management, CI/CD, account vending</li>
+            </ul>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">Enterprise Learning Platform</h3>
+            <span class="block text-xs text-accent2 mb-2">Terraform · Lambda · API Gateway · Cognito · DynamoDB · S3 · CloudFront · Amplify</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Led backend architecture for serverless LMS on AWS (Team Lead)</li>
+              <li>Auth, course management, content delivery, progress tracking</li>
+              <li>CloudFront CDN, automated Terraform deployment, security best practices</li>
+            </ul>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">Event Management Platform</h3>
+            <span class="block text-xs text-accent2 mb-2">Terraform · SAM · Python 3.12 · Lambda · Cognito · DynamoDB · S3 · SES · EventBridge · Angular</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Serverless university tech fair platform: provisioning, submission intake, admin dashboards</li>
+              <li>Bulk CSV/XLSX provisioning, presigned S3 uploads, EventBridge-enforced deadlines</li>
+            </ul>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">AWS RDS Disaster Recovery Automation</h3>
+            <span class="block text-xs text-accent2 mb-2">RDS · Lambda · EventBridge · CloudWatch · Route 53 · SNS · Terraform</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>RTO 1–2 hrs, RPO ≤ 15 min (Team Lead)</li>
+              <li>Automated snapshots, cross-region replication, Route 53 failover across eu-central-1/eu-west-1</li>
+            </ul>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">Disaster Recovery Tool: AgentCore Memory &amp; DynamoDB</h3>
+            <span class="block text-xs text-accent2 mb-2">Python · Bedrock AgentCore · DynamoDB · Terraform · Angular · SSE</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Cross-region migration tool for AgentCore Memory &amp; DynamoDB conversation history</li>
+              <li>Dry-run preview, idempotent re-runs, live SSE progress streaming</li>
+            </ul>
+            <a class="inline-block mt-2 text-sm text-accent hover:underline" href="https://github.com/Kjeff24/agentcore-memory-dynamodb-migration" target="_blank" rel="noreferrer">GitHub →</a>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">AI Agent Chat System</h3>
+            <span class="block text-xs text-accent2 mb-2">Java · Spring Boot · WebSocket (STOMP) · Angular · PostgreSQL · Redis · MCP</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Multi-provider (Anthropic, OpenAI, Ollama) conversational platform</li>
+              <li>Real-time STOMP streaming, JWT auth, Atlassian MCP OAuth integration</li>
+            </ul>
+            <a class="inline-block mt-2 text-sm text-accent hover:underline" href="https://github.com/Kjeff24/ai-agent-chat-system" target="_blank" rel="noreferrer">GitHub →</a>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">Multi-Agent Workflow Studio</h3>
+            <span class="block text-xs text-accent2 mb-2">Angular · Bedrock · AgentCore · Cognito · Entra ID (SAML) · Amplify</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Drag-and-drop multi-agent pipeline builder with interactive canvas</li>
+              <li>Per-agent chat, embedded draw.io editing, real-time streaming, dual SSO</li>
+            </ul>
+            <a class="inline-block mt-2 text-sm text-accent hover:underline" href="https://github.com/Kjeff24/agent-workflow-frontend" target="_blank" rel="noreferrer">GitHub →</a>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">Agent Hub</h3>
+            <span class="block text-xs text-accent2 mb-2">Python · FastAPI · Bedrock · Angular · DynamoDB · Docker Compose · MCP</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Three specialist agents (Planner, Executor, Reviewer) as FastAPI microservices</li>
+              <li>Shared DynamoDB store for cross-agent context; Atlassian OAuth via MCP</li>
+            </ul>
+            <a class="inline-block mt-2 text-sm text-accent hover:underline" href="https://github.com/Kjeff24/agent-hub" target="_blank" rel="noreferrer">GitHub →</a>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">Photo Blog App</h3>
+            <span class="block text-xs text-accent2 mb-2">Python · Lambda · S3 · SQS · SNS · Cognito · DynamoDB · Route 53 · Terraform</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Serverless photo platform: watermarking, time-bound links, recycling bin</li>
+              <li>SQS retry mechanism, warm-standby cross-region DR (sub-10-min RPO/RTO)</li>
+            </ul>
+            <a class="inline-block mt-2 text-sm text-accent hover:underline" href="https://github.com/Kjeff24/photo-blog-app" target="_blank" rel="noreferrer">GitHub →</a>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">Task Management System</h3>
+            <span class="block text-xs text-accent2 mb-2">Lambda · API Gateway · DynamoDB · Cognito · SNS · Angular · Terraform</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Serverless task creation, assignment, tracking, notifications</li>
+              <li>Fine-grained access controls for admins and team members</li>
+            </ul>
+            <a class="inline-block mt-2 text-sm text-accent hover:underline" href="https://github.com/Kjeff24/task-management-serveless-application" target="_blank" rel="noreferrer">GitHub →</a>
+          </div>
+
+          <div class="bg-slate-800/60 border border-white/10 rounded-2xl p-5">
+            <h3 class="font-semibold text-white">Travel Booking System</h3>
+            <span class="block text-xs text-accent2 mb-2">Java · Spring Boot · Microservices · Angular</span>
+            <ul class="list-disc pl-4 space-y-1 text-sm text-slate-300">
+              <li>Microservices platform for flights, hotels, rental cars, accommodations</li>
+              <li>User authentication and admin panel</li>
+            </ul>
+            <a class="inline-block mt-2 text-sm text-accent hover:underline" href="https://github.com/Kjeff24/Travel-Booking-System-Microservice" target="_blank" rel="noreferrer">GitHub →</a>
+          </div>
+
         </div>
       </section>
 
-      <section class="section">
-        <h3>Socials</h3>
-        <div class="socials">
-          <a href="https://github.com/Kjeff24" target="_blank" rel="noreferrer">
-            <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg">
-              <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg">
-              <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub">
-            </picture>
+      <!-- Skills -->
+      <section class="mt-9 pt-7 border-t border-white/10">
+        <div class="text-xs font-semibold tracking-widest uppercase text-accent2 mb-4">Skills</div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <div>
+            <h4 class="text-accent font-semibold mb-1">Languages</h4>
+            <p class="text-sm text-slate-300">Python, Java, TypeScript, HCL (Terraform), SQL, Bash</p>
+          </div>
+          <div>
+            <h4 class="text-accent font-semibold mb-1">AI / Agents</h4>
+            <p class="text-sm text-slate-300">AWS Bedrock (Claude Sonnet 4 / Haiku), Strands Agents SDK, AgentCore Memory, Copilot Studio, multi-agent orchestration, RAG, MCP, LLM tool use, SSE streaming, vector embeddings</p>
+          </div>
+          <div>
+            <h4 class="text-accent font-semibold mb-1">Microsoft 365 / Power Platform</h4>
+            <p class="text-sm text-slate-300">Copilot Studio, Power Automate, Teams bot embedding, SharePoint retrieval, Approvals, Outlook API</p>
+          </div>
+          <div>
+            <h4 class="text-accent font-semibold mb-1">Backend</h4>
+            <p class="text-sm text-slate-300">FastAPI, Spring Boot 3, Spring AI, Spring Security, Spring OAuth 2.0, Django, Flask, Streamlit, SQLAlchemy, python-pptx, boto3</p>
+          </div>
+          <div>
+            <h4 class="text-accent font-semibold mb-1">Frontend</h4>
+            <p class="text-sm text-slate-300">Angular 17–20, RxJS, NgRx Signals, Tailwind CSS, Angular Material, AWS Amplify</p>
+          </div>
+          <div>
+            <h4 class="text-accent font-semibold mb-1">Cloud: AWS</h4>
+            <p class="text-sm text-slate-300">Lambda, API Gateway, DynamoDB, S3, Cognito, Bedrock, AgentCore, ECS Fargate, EC2, RDS, SQS, SNS, EventBridge, Route 53, CloudFront, KMS, CloudWatch, Amplify, SSM, ECR, SES, GuardDuty, Security Hub, Inspector, Config, Control Tower</p>
+          </div>
+          <div>
+            <h4 class="text-accent font-semibold mb-1">Infrastructure &amp; DevOps</h4>
+            <p class="text-sm text-slate-300">Terraform 1.5+, AWS SAM, CloudFormation, GitHub Actions (OIDC), Docker, Docker Compose, Kubernetes</p>
+          </div>
+          <div>
+            <h4 class="text-accent font-semibold mb-1">Databases &amp; Auth</h4>
+            <p class="text-sm text-slate-300">DynamoDB (single-table), PostgreSQL, Redis · Cognito, OAuth 2.0 + PKCE, SAML 2.0, JWT, KMS, IAM least-privilege, OIDC CI/CD</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications -->
+      <section class="mt-9 pt-7 border-t border-white/10">
+        <div class="text-xs font-semibold tracking-widest uppercase text-accent2 mb-4">Certifications</div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="text-left text-white border-b border-white/10">
+                <th class="py-2 pr-4">Certification</th>
+                <th class="py-2 pr-4">Issuer</th>
+                <th class="py-2">Date</th>
+              </tr>
+            </thead>
+            <tbody class="text-slate-300">
+              <tr class="border-b border-white/5"><td class="py-2 pr-4">AWS Certified Developer – Associate</td><td class="py-2 pr-4">Amazon Web Services</td><td class="py-2">Apr 2026</td></tr>
+              <tr class="border-b border-white/5"><td class="py-2 pr-4"><a class="text-accent hover:underline" href="https://www.credly.com/badges/1e86cd7c-e30d-46d5-8f67-b8578ee1a0f5" target="_blank" rel="noreferrer">AWS Certified Solutions Architect – Associate</a></td><td class="py-2 pr-4">Amazon Web Services</td><td class="py-2">Mar 2025</td></tr>
+              <tr class="border-b border-white/5"><td class="py-2 pr-4"><a class="text-accent hover:underline" href="https://www.credly.com/badges/d0e16667-1757-4f0b-a729-89076e7202b9" target="_blank" rel="noreferrer">AWS Knowledge: Data Protection &amp; Disaster Recovery</a></td><td class="py-2 pr-4">Amazon Web Services</td><td class="py-2">Nov 2024</td></tr>
+              <tr class="border-b border-white/5"><td class="py-2 pr-4">Create REST APIs with Spring and Java Skill Path</td><td class="py-2 pr-4">Codecademy</td><td class="py-2">Mar 2024</td></tr>
+              <tr class="border-b border-white/5"><td class="py-2 pr-4"><a class="text-accent hover:underline" href="https://www.credly.com/badges/9249b991-6391-461e-9584-572879dc8f38" target="_blank" rel="noreferrer">AWS re/Start Graduate</a></td><td class="py-2 pr-4">Amazon Web Services</td><td class="py-2">Mar 2024</td></tr>
+              <tr><td class="py-2 pr-4"><a class="text-accent hover:underline" href="https://www.credly.com/badges/72ec3efe-9553-4a19-bfa7-fa86fdc8e49a" target="_blank" rel="noreferrer">AWS Certified Cloud Practitioner</a></td><td class="py-2 pr-4">Amazon Web Services</td><td class="py-2">Mar 2024</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="mt-9 pt-7 border-t border-white/10">
+        <div class="text-xs font-semibold tracking-widest uppercase text-accent2 mb-2">Education</div>
+        <p class="text-slate-300"><strong class="text-white">B.Sc. Computer Science</strong>, University of Ghana · Sep 2019 – Sep 2023</p>
+      </section>
+
+      <!-- GitHub Stats -->
+      <section class="mt-9 pt-7 border-t border-white/10">
+        <div class="text-xs font-semibold tracking-widest uppercase text-accent2 mb-4">GitHub Stats</div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <a href="https://github.com/Kjeff24" target="_blank" rel="noreferrer" class="block bg-slate-800/60 border border-white/10 rounded-2xl p-4 h-52 flex items-center justify-center">
+            <img class="max-w-full max-h-full object-contain" loading="lazy" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kjeff24&theme=github_dark" alt="Kjeff24's GitHub profile">
           </a>
-          <a href="https://www.linkedin.com/in/jeffery-afutu" target="_blank" rel="noreferrer">
-            <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg">
-              <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg">
-              <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn">
-            </picture>
+          <a href="https://github.com/Kjeff24" target="_blank" rel="noreferrer" class="block bg-slate-800/60 border border-white/10 rounded-2xl p-4 h-52 flex items-center justify-center">
+            <img class="max-w-full max-h-full object-contain" loading="lazy" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kjeff24&theme=github_dark" alt="Kjeff24's GitHub stats">
+          </a>
+          <a href="https://github.com/Kjeff24" target="_blank" rel="noreferrer" class="block bg-slate-800/60 border border-white/10 rounded-2xl p-4 h-52 flex items-center justify-center">
+            <img class="max-w-full max-h-full object-contain" loading="lazy" src="https://github-readme-streak-stats.herokuapp.com/?user=Kjeff24&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="GitHub streak stats">
+          </a>
+          <a href="https://github.com/Kjeff24" target="_blank" rel="noreferrer" class="block bg-slate-800/60 border border-white/10 rounded-2xl p-4 h-52 flex items-center justify-center">
+            <img class="max-w-full max-h-full object-contain" loading="lazy" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kjeff24&theme=github_dark" alt="Top Languages By Commit">
+          </a>
+          <a href="https://github.com/Kjeff24" target="_blank" rel="noreferrer" class="block bg-slate-800/60 border border-white/10 rounded-2xl p-4 h-52 flex items-center justify-center sm:col-span-2">
+            <img class="max-w-full max-h-full object-contain" loading="lazy" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kjeff24&theme=github_dark" alt="Repos per language">
           </a>
         </div>
       </section>
 
-      <section class="section">
-        <h3>Technologies &amp; Tools</h3>
-        <div class="badge-grid badges">
-          <div>
-            <p><strong>Cloud Services:</strong></p>
-            <img src="https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=amazon-aws&logoColor=white&color=6aa6f8" alt="AWS badge">
-          </div>
-          <div>
-            <p><strong>Programming Languages:</strong></p>
-            <div class="badge-row">
-              <img src="https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8" alt="Python badge">
-              <img src="https://img.shields.io/badge/Code-Java-informational?style=flat&logo=java&logoColor=white&color=6aa6f8" alt="Java badge">
-              <img src="https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=6aa6f8" alt="JavaScript badge">
-              <img src="https://img.shields.io/badge/Code-TypeScript-informational?style=flat&logo=typescript&logoColor=white&color=6aa6f8" alt="TypeScript badge">
-            </div>
-          </div>
-          <div>
-            <p><strong>Tools and Services:</strong></p>
-            <img src="https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8" alt="Docker badge">
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <h3>Badges</h3>
-        <div class="badge-grid badges">
-          <p><strong>My Github Stats:</strong></p>
-          <a href="http://www.github.com/Kjeff24"><img src="https://github-readme-stats.vercel.app/api?username=Kjeff24&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="Kjeff24's GitHub stats"></a>
-          <a href="http://www.github.com/Kjeff24"><img src="https://github-readme-streak-stats.herokuapp.com/?user=Kjeff24&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="GitHub streak stats"></a>
-          <a href="https://github.com/Kjeff24"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kjeff24&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages"></a>
-          <a href="https://github.com/Kjeff24"><img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kjeff24&theme=transparent" alt="Top Languages By Commit"></a>
-          <a href="https://github.com/Kjeff24"><img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kjeff24&theme=transparent" alt="Repos per language"></a>
-        </div>
-      </section>
     </article>
+
+    <footer class="text-center mt-8 text-slate-500 text-sm">
+      <p>Jeffery Afutu · Accra, Ghana · <a class="hover:text-accent" href="mailto:jeffery.afutu@gmail.com">jeffery.afutu@gmail.com</a></p>
+    </footer>
   </main>
 </body>
 </html>
